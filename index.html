@@ -1,294 +1,174 @@
-<html>
-    <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <meta name="HandheldFriendly" content="true">
-        <title>
-            【OFFICIAL】 Islamic Bimbel - Home
-        </title>
+<!DOCTYPE html>
+<html lang="en">
 
-        <style>
-            body{
-                background-image: url("background.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                font-size: 2vw;
-                width: 100%;
-                min-height: 100%;
-                margin: 0px;
-                padding: 0px;
-            }
-            
-            .header{
-                background:#FFF;
-                border-radius: 20px;
-                padding: 10px;
-            }
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-            <!--Gambar bergerak-->
-            *{
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                text-decoration: none;
-            }
+  <title>Pendidikan Rumah Tangga</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-            .slider{
-                overflow: hidden;
-                height: auto;
-            }
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-            .slider figure div{
-                width: 20%;
-                float: left;
-            }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-            .slider figure img{
-                width: 100%;
-                float: left;
-            }
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-            .slider figure{
-                position: relative;
-                width: 500%;
-                margin: 0;
-                left: 0;
-                animation: 30s slidy infinite;
-            }
-            
-            @keyframes slidy{
-                0%{
-                    left: 0%
-                }
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-	            10%{
-	            	left: 0%;
-            	}
+<body>
 
-            	12%{
-	            	left: -100%;
-            	}
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <marquee direction="left">
+    <font face="Comic sans MS">STAI Kuala Kapuas _____ Matkul: Pendidikan Rumah Tangga _____ Dosen: Hj. Norhayati _____ Asisten Dosen: Muhammad Radhi Rifani Laily</font>
+  </marquee>
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-	            22%{
-                    left: -100%;
-                }
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Salam Pembuka</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Rules</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Salam Penutup</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-                24%{
-                    left: -200%;
-                }
+  </header><!-- End Header -->
 
-                34%{
-                    left: -200%;
-                }
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>MATA KULIAH:</h1>
+      <p><span class="typed" data-typed-items="Pendidikan Rumah Tangga"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
-                36%{
-                    left: -300%;
-                }
+  <main id="main">
 
-                46%{
-                    left: -300%;
-                }
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-                48%{
-                    left: -400%;
-                }
-
-                58%{
-                    left: -400%;
-                }
-
-                60%{
-                    left: -300%;
-                }
-
-                70%{
-                    left: -300%;
-                }
-
-                72%{
-                    left: -200%;
-                }
-
-                82%{
-                    left: -200%;
-                }
-
-                84%{
-                    left: -100%;
-                }
-
-                94%{
-                    left: -100%;
-                }
-
-                96%{
-                    left: 0%;
-                }
-
-                100%{
-                    left: 0%;
-                }
-            }
-
-            @media screen and {max-width: 1060px;} {
-                #primary {width: 67%;}
-                #secondary {width: 30%; margin-left: 3%;}
-            }
-
-            @media screen and {max-width: 768px;} {
-                #primary {width: 100%;}
-                #secondary {width: 100%; margin: 0; border: none;}
-            }
-
-            img {max-width: 100%; height: auto;}
-        </style>
-    </head>
-
-    <body>
-        <!--Tulisan berjalan di header-->
-        <div style="background: rgb(212, 211, 211); padding: 5px; width: 100%;">
-            <marquee direction="left">
-                <font face="Comic sans MS">Malas baca buku? Buka aja Islamic Bimbel! ... Belajar agama menjadi menyenangkan, simple, dan mudah dipahami~</font>
-            </marquee>
+        <div class="section-title">
+          <h2>Salam pembuka</h2>
+          <p>Assalamu'alaikum Warahmatullahi Wabarakatuh. Alhamdulillahi Rabbil 'Alamin. Washolatu Wassalamu 'Ala Asyrafil Ambiya'i Wal Mursalin, Wa 'Ala Alihi Washohbihi Ajma'in</p>
+          <br>
+          <p>Tak lupa kita bersyukur kepada Allah Swt. dengan mengucapkan Alhamdulillah, dan bersholawat kepada Rasulullah dengan mengucapkan Allahumma Sholli 'Ala Sayyidina Muhammad Wa 'Ala Ali Sayyidina Muhammad.</p>
+          <br>
+          <p>Saya ucapkan selamat datang di website Matkul Pendidikan Rumah Tangga. Web ini masih bersifat percobaan, rencanaya untuk mempermudah kita dalam melakukan pembelajaran daring.</p>
+          <p>Baiklah langsung saja, untuk pertemuan Daring-2 hari ini, silahkan ikuti petunjuk / rules berikut.</p>
         </div>
 
-        <!--Bagian kepala-->
-        <div class="header">
-            
-            <!--Menu-->
-            <center>
-                <div style="background: rgb(18, 224, 52); border-radius: 20px; padding: 3px;">
-                    <table width="100%">
-                        <tr>
-                            <th>
-                                <a href="https://www.youtube.com/@islamicbimbel_ID">
-                                    <img style="width: 10vw;" src="logo Islamic Bimbel no bg 111.png">
-                                </a>
-                            </th>                        
-                            <th>
-                                <a href="home.html">
-                                    <img style="width: 20vw;" src="21 home.png">
-                                </a>
-                            </th>                
-                            <th>
-                                <a href="product.html">
-                                    <img style="width: 20vw;" src="12 belajar no bg.png">
-                                </a>
-                            </th>
-                            <th>
-                                <a href="services.html">
-                                    <img style="width: 20vw;" src="13 fitur no bg.png">
-                                </a>
-                            </th>
-                            <th>
-                                <a href="about.html">
-                                    <img style="width: 20vw;" src="14 tentang no bg.png">
-                                </a>
-                            </th>
-                        </tr>
-                    </table>
-                </div>
-            </center>
-            <br>
+      </div>
+    </section><!-- End About Section -->
 
-            <!--Gambar Bergerak-->
-            <div class="slider">
-                <figure>
-                    <div class="slide">
-                        <img src="z welcome.png">
-                    </div>   
-                    <div class="slide">
-                        <img src="z web.jpg">
-                    </div>    
-                    <div class="slide">
-                        <img src="z hut.png">
-                    </div>   
-                    <div class="slide">
-                        <img src="z ramadan.png">
-                    </div>
-                </figure>
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>RULES</h2>
+        </div>
+
+            <div class="resume-item">
+              <h4>Silahkan tonton dan simak baik-baik 2 video berikut.</h4>
+              <h5> Video Materi Daring-1</h5>
+              <p><iframe width="440" height="315" src="https://www.youtube.com/embed/bJbyAgAUDic" title="Pendidikan Rumah Tangga 🏡 Daring-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+              <br>
+              <h5>Video Materi Daring-2</h5>
+              <p><iframe width="440" height="315" src="https://www.youtube.com/embed/TNXytVMNSek" title="Pendidikan Rumah Tangga 🏡 Daring-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
             </div>
+            <div class="resume-item">
+              <h4>Latihan dan Absensi</h4>
+              <p>Setelah menonton video diatas, silahkan klik tombol berikut untuk mengisi absen kehadiran anda hari ini. <b>Jawablah dengan sungguh-sungguh karena ini akan diambil menjadi nilai latihan harian.</b></p>
+              <a href="https://forms.gle/tXBqQpp1xLEn6Rk29"><input type="submit" value="Klik Disini"></a>
+            </div>
+            <div class="resume-item">
+              <h4>absensi akan ditutup pada jam 15.00 wib</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Bagi yang sakit / izin silahkan CP ibu dosennya saja.</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Bagi yang tidak mengisi absensi hari ini tanpa ada keterangan izin / sakit akan dianggap alfa</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Jika ada yang kurang jelas / kendala silahkan chat di grub WA saja dengan mentag <b>"@"</b> saya.</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Sekian dan Terimakasih~.</h4>
+            </div>
+          </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Salam penutup</h2>
+          <p>Jika sudah selesai menonton dan menjawab latihan diatas, silahkan lanjutkan aktivitas masing-masing.</p>
+          <p>Mohon maaf jika ada salah khilaf. Mari kita tutup pertemuan hari ini dengan do'a kafaratul majelis</p>
+          <p>سبحانك اللهم وبحمدك اشهد ان لا اله الا انت استغفرك واتوب اليك</p>
+          <br><br><br>
+          <p>See u</p>
+          <p>الى اللقاء</p>
+          <p>じゃあまたね</p>
+          <p>Sampai jumpa di lain pertemuan</p>
+          <p>Wassalamu'alaikum warahmatullahi wabarakatuh</p>
         </div>
+      </div>
+    </section><!-- End Contact Section -->
 
-        <!--Bagian Isi-->
-        <div style="padding: 5px; margin-top: 10%; margin-left: 5%; margin-right: 5%; margin-bottom: 10%;">
-            <center>
-                <!--Foto pilihan menu-->
-                <img style="width: 30vw;" src="11 home no bg.png">
-                <br><br><br><br><br><br><br>
-            
+  </main><!-- End #main -->
 
-                <!--Tampilan isi-->
-                <!--Kata promosi-->
-                    <font face="Comic sans MS"">
-                        Kamu bersekolah di Madrasah Aliyah?
-                        <br> Tapi ketika ujian kamu malas belajar atau membaca buku?
-                        <br><br> TENANG... Kami punya solusinya!!!
-                        <br> Buka aja <b>"Islamic Bimbel"</b>~<br>
-                        <a href="https://www.youtube.com/@islamicbimbel_ID">          
-                            <img style="width: 25vw;" src="logo Islamic Bimbel no bg 111.png">
-                        </a>
-                        <br> Bersama Islamic Bimbel belajar agama menjadi menyenangkan, simple, dan mudah dipahami.
-                    </font>               
-                <br><br><br><br><br><br><br>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Pendidikan Rumah Tangga</h3>
+      <p>"Tumbuh dan berkembang bersama keluarga"</p>
+      <br>
+      <br>
 
-                <!--Kata pengantar-->
-                <img style="width: 25vw;" src="4 kata pengantar.png">
-                <br><br>           
-                <img style="width: 25vw;" src="Bismillah no bg.png">
-                <br>
-                <font face="Comic sans MS">
-                    Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang
-                    <br><br>
-                    Segala puji bagi Allah Tuhan semesta alam. Shalawat dan salam tercurah kepada Nabi Muhammad Saw. dan pengikutnya.
-                    Kami bersyukur kepada Allah Swt. karena berkat limpahan taufik dan hidayah-Nya, dapat menyelesaikan web Islamic Bimbel ini khususnya untuk Madrasah Aliyah (MA).
-                    Web ini kami susun secara sistematis dan sesuai standar Kementerian Agama Kurikulum 2013 dan Kurikulum 2013 Revisi (2019).
-                    <br><br>
-                    Tuntutan kurikulum ini menghendaki kualitas pembelajaran yang dapat menjadikan sikap siswa yang kreatif, mandiri, kerjasama,
-                    solidaritas, kepemimpinan, empati, toleransi, dan kecakapan hidup guna membentuk watak serta meningkatkan peradaban dan martabat bangsa.
-                    Urutan penyajian web ini kami sesuaikan dengan pola kemampuan daya pikir siswa. Hal ini bertujuan untuk membantu kegiatan belajar siswa dalam memahami,
-                    menyerap, menghayati, dan mempraktikkan mata pelajaran. Dalam web ini diusahakan agar aktivitas belajar siswa lebih diutamakan dalam menonton video pembelajaran daripada membaca buku.
-                    <br><br>
-                    Melalui tulisan ini kami berharap semoga web ini bermanfaat bagi guru dan siswa Madrasah serta masyarakat.
-                    Kami berterima kasih kepada semua pihak atas saran dan dukungannya selama ini demi kesempurnaan channel Youtube Islamic Bimbel.
-                    <br><br><br>
-                    Kuala Kapuas, 18 Januari 2023
-                    <br>
-                    <img style="width: 14vw;" src="TTD.png">
-                    <br>
-                    Muhammad Radhi Rifani Laily
-                </font>
-                <br><br><br><br><br><br><br>
-            
-                <!--Media Sosial-->
-                <img style="width: 25vw;" src="media sosial.png">
-                <br><br>
-                <table width="auto">
-                    <tr>
-                        <th>
-                            <a href="https://www.youtube.com/@islamicbimbel_ID">
-                                <img style="width: 10vw;" src="logo yt.png">
-                            </a>
-                        </th>
-                        <th></th>
-                        <th>
-                            <a href="https://instagram.com/islamicbimbel_id?">
-                                <img style="width: 7vw;" src="logo ig.png">
-                            </a>
-                        </th>
-                    </tr>
-                </table>
-                <br><br><br><br><br><br><br>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Muhammad Radhi Rifani Laily</span></strong>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-                <!--Akhir-->
-                ➖💠➖💠➖💠➖
-                <br> <i>Malas baca buku? Buka aja <b>Islamic Bimbel</b></i>
-            </center>
-        </div>
-        
-        <!--Bagian kaki-->
-        <div style="background:#000; width: 100%; color: #FFF; text-align: center">
-            &copy; copyright 2023 Muhammad Radhi Rifani Laily
-        </div>
-    </body>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
